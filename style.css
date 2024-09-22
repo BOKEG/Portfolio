@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+
+.nav{
+ align-content: center;
+ margin-left: 50px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background-color:rgb(46, 45, 45);
+    box-shadow: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+    
+    
+}
+.icons{
+    display: flex;
+    
+    
+}
+.icon{
+    padding: 10px;
+}
+
