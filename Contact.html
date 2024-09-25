@@ -3,38 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact US</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/8324bd09e8.js" crossorigin="anonymous"></script>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <div>
-        <ul class="navbar">
-            <div><a href="index.html"><li style="color: white;">Home</li></a></div>
-            <div><a href="About.html"><li style="color: white;">About</li></a></div>
-            <div><a href="Contact.html"><li style="color: white;">Contact</li></a></div>  
-            <div class="icons">
-                <div class="icon"><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f" style="color: #eef1f6;"></i></a></div>
-                <div class="icon"><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="color: #e1e2e5;"></i></a></div>
-                <div class="icon"><a href="https://ke.linkedin.com/"><i class="fa-brands fa-linkedin-in" style="color: #e3e7ee;"></i></a></div>
+    <div class="big-cont">
+        <div class="container">        
+            <div class="row">
+                <div class="header">
+                    <h2>Contact Us</h2>
+                    <p>Feel free to leave us a message!</p>
+                </div>
+                <div class="column">
+                    <form>
+                        <div class="form">
+                            <div class="name">
+                                <div class="fname">
+                                    <label for="fname">First Name</label>
+                                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                                </div>
+                                <div class="lname">
+                                    <label for="lname">Last Name</label>
+                                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                                </div>                                                     
+                            </div>                   
+    
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your email..">
+    
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+                            <input type="submit" value="Submit">
+    
+                        </div>
+                        
+                    </form>
+                </div>
             </div>
-        </ul>
-        
+            
+        </div>
+        <div class="info-contact">
+            <h2>Contact Us</h2>
+            <div class="address">
+                <p>Address</p>
+            </div>
+            <div>
+                <p>Phone</p>
+            </div>
+            <div>
+                <p>email</p>
+            </div>
+    
+        </div>
     </div>
+   
 
-   <p>This is my Contact information</p> 
-   <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
-    <fieldset id="fs-frm-inputs">
-      <label for="full-name">Full Name</label>
-      <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-      <label for="email-address">Email Address</label>
-      <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-      <label for="message">Message</label>
-      <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
-      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-    </fieldset>
-    <input type="submit" value="Submit">
-  </form>
 </body>
 </html>
