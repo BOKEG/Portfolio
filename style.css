@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(121, 108, 108);
+    background-color: rgba(215, 213, 213, 0.729);
 }
 
 .nav{
@@ -9,23 +9,38 @@ body{
 
 .navbar{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    background-color:rgb(46, 45, 45);
-    box-shadow: 10px;
-    border-radius: 10px;
-    max-width: 80%;
-    
-    
+   background-color: #333;
+   justify-content: space-around;
+   align-items: center;
 }
-.icons{
+.navbar ul{
     display: flex;
-    
-    
+    justify-content: left;
+    list-style-type: none;
+}
+.navbar li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 16px;
+    font-size: 20px;
+}
+.navbar li a:hover{
+    font-size: 2rem;
+    color:#af1d1d;
+    transition: 0.5s ease-in-out;
+}
+
+.icons{
+    display: flex;    
 }
 .icon{
     padding: 10px;
+}
+.icon:hover i {
+    font-size: 2em;
+    top: 15%;
+    transition: 0.5s ease-in-out;
 }
 
 .par{

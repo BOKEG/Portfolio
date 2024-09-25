@@ -1,63 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/8324bd09e8.js" crossorigin="anonymous"></script>
+
+<title>Contact Form</title>
 </head>
 <body>
-    <div class="big-cont">
-        <div class="container">        
-            <div class="row">
-                <div class="header">
-                    <h2>Contact Us</h2>
-                    <p>Feel free to leave us a message!</p>
-                </div>
-                <div class="column">
-                    <form>
-                        <div class="form">
-                            <div class="name">
-                                <div class="fname">
-                                    <label for="fname">First Name</label>
-                                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                                </div>
-                                <div class="lname">
-                                    <label for="lname">Last Name</label>
-                                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                                </div>                                                     
-                            </div>                   
-    
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" placeholder="Your email..">
-    
-                            <label for="subject">Subject</label>
-                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-    
-                            <input type="submit" value="Submit">
-    
-                        </div>
-                        
-                    </form>
-                </div>
-            </div>
-            
+    <header>
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="icons">
+            <div class="icon"><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f" style="color: #eef1f6;"></i></a></div>
+            <div class="icon"><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="color: #e1e2e5;"></i></a></div>
+            <div class="icon"><a href="https://ke.linkedin.com/"><i class="fa-brands fa-linkedin-in" style="color: #e3e7ee;"></i></a></div>
         </div>
-        <div class="info-contact">
-            <h2>Contact Us</h2>
-            <div class="address">
-                <p>Address</p>
-            </div>
-            <div>
-                <p>Phone</p>
-            </div>
-            <div>
-                <p>email</p>
-            </div>
-    
-        </div>
+        
     </div>
-   
-
+    </header>
+    
+<div class="container">
+    <div class="card left-card">
+        <h2>Get in touch</h2>
+        <div class="input-group">
+            <input type="text" placeholder="Name"/>
+        </div>
+        <div class="input-group">
+            <input type="email" placeholder="Email"/>
+        </div>
+        <div class="input-group">
+            <input type="text" placeholder="Subject"/>
+        </div>
+        <div class="input-group">
+            <textarea rows="4" placeholder="Message"></textarea>
+        </div>
+        <button class="button">Send Message</button>
+    </div>
+    <div class="card right-card">
+        <h3>Contact</h3>
+        <p>Nairobi, Kenya</p>
+        <p>Phone: +254 7123 456</p>
+        <p>Email: info@yoursite.com</p>
+        <p>Website: yoursite.com</p>
+    </div>
+</div>
 </body>
 </html>
