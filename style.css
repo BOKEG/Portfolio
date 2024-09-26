@@ -1,10 +1,10 @@
 body{
-    background-color: rgba(215, 213, 213, 0.729);
+    background-color: rgba(215, 215, 215, 0.981);
+    font-family: ;
 }
-
+/* Navbar styling */
 .nav{
  align-content: center;
- margin-left: 50px;
 }
 
 .navbar{
@@ -26,9 +26,7 @@ body{
     font-size: 20px;
 }
 .navbar li a:hover{
-    font-size: 2rem;
     color:#af1d1d;
-    transition: 0.5s ease-in-out;
 }
 
 .icons{
@@ -42,19 +40,61 @@ body{
     top: 15%;
     transition: 0.5s ease-in-out;
 }
-
-.par{
-    display: flex;
-    justify-content: center;
-    color: white;
-    padding: 100px;
-    margin-right: 50px;
-}
+/* Homepage Styling */
 img{
     
     border-radius: 50%;
     width: 300px;
     height: 300px;
+}
+.home{
+    display: flex;
+    justify-content: space-around;
+    padding: 90px;
+}
+.info-personal{
+    display: block;
+}
+.info-personal h1{
+    font-size: 3rem;
+}
+.info-personal p{
+    font-size: 20px;
+}
+.info-personal button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    border-style: none;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+    color: #fff;
+    background-color: rgb(65, 63, 63);
+}
+.info-personal button:hover{
+    background-color: #000;
+}
+
+/* Work Experience */
+.work-exp{
+    padding-left: 170px;
+}
+.work-exp h2{
+    font-size: 30px;
+    padding: 20px;
+}
+.companies{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.company img{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding-right: 40px;
+    /* margin: 0 50px; */
+
 }
 
 
