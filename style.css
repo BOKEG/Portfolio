@@ -101,11 +101,28 @@ img{
     /* margin: 0 50px; */
 
 }
+.info{
+    display: flex;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+}
+.info h1{
+    color: rgb(0, 60, 255);
+}
+.abt li{
+    list-style: none;
+}
+
+.vido{
+    box-shadow: 0px 0px 20px rgba(66, 44, 44, 0.1);
+}
 
 .card-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* Creates 4 equal columns */
     gap: 20px;
+  }
+  .card:hover{
+    background-color: #af1d1d;
   }
   
   .card {
