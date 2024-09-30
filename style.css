@@ -1,6 +1,13 @@
 body{
     background-color: rgba(215, 215, 215, 0.981);
-    font-family: ;
+}
+#MyVideo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    z-index:-1;
 }
 /* Navbar styling */
 .nav{
@@ -26,7 +33,7 @@ body{
     font-size: 20px;
 }
 .navbar li a:hover{
-    color:#af1d1d;
+    color:#0612f5;
 }
 
 .icons{
@@ -106,10 +113,11 @@ img{
     box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
 }
 .info h1{
-    color: rgb(0, 60, 255);
+    color:#fff;
 }
 .abt li{
     list-style: none;
+    color: #fff;
 }
 
 .vido{
